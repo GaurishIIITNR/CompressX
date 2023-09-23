@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #116466;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+body {
+    color: #ccd5d9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* background-color: #d5e0d0; */
+    /* background-image: linear-gradient(319deg, #91d370 0%, #bca0ff 37%, #f2cd54 100%); */
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.navbar-brand{
+    color: #d8e1ec;
+}
+
+#heading {
+    font-size: 2rem;
+    /*margin-top: 2rem;*/
+    margin-bottom: 2rem;
+}
+
+.card {
+    width: 30rem;
+    height: 27rem;
+    text-align: center;
+    margin: 0 auto;
+    border: 4px double;
+    padding: 5rem 0;
+    background-color: #dfdce9;
+    color: #d8e1ec;
+    background-image: linear-gradient(315deg, #116466 0%, #116466 74%);
+}
+
+h2:hover {
+    font-size: 3rem;
+    transition: 800ms;
+}
+
+#uploadfile {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    width: 16rem;
+}
+
+
+#encode,
+#decode {
+    margin-top: 1rem;
+    margin-right: 0.2rem;
+}
+
+#step2,
+#step3 {
+    background-color: rgb(4, 113, 108);
+    display: none;
+}
+
+
+
+#startagain {
+    visibility: hidden;
+    display: block;
+    margin: 2rem auto 0;
+}
+
+.conttainer-fluid {
+    height: 100%;
+}
+
+.text2 {
+    font-size: 1.5rem;
+}
+
+#doneImg {
+    width: 10rem;
+    margin: auto;
+}
+
+.custom-shape-divider-top-1619602423 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1619602423 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 600px;
+}
+
+.custom-shape-divider-top-1619602423 .shape-fill {
+    fill: black;
+}
+
+footer {
+    margin: auto;
+    background-color: #f2eeee;
+    color: #fff;
+    padding: 0px 0;
+    text-align: center;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #dbe1d8;
+}
